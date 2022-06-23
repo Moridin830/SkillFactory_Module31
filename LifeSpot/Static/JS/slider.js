@@ -38,3 +38,7 @@ function showSlides(n) {
     /* Делаем элемент блочным: */
     slides[slideIndex - 1].style.display = "block";
 }
+
+function changeSlide() {
+
+}

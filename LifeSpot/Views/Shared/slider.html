@@ -4,22 +4,24 @@
     <link href="../../Static/CSS/slider.css" rel="stylesheet" type="text/css">
     <!-- Первый слайд -->
     <div class="item">
-        <img src="https://avatanplus.com/files/resources/mid/583b05635a112158a68d0c29.jpg">
+        <img src="https://avatanplus.com/files/resources/mid/583b05635a112158a68d0c29.jpg" draggable="true" ondrag="changeSlide()">
     </div>
 
     <!-- Второй слайд -->
     <div class="item">
-        <img src="https://besthqwallpapers.com/Uploads/3-5-2020/131339/thumb-saint-isaacs-cathedral-isaakievskiy-sobor-saint-petersburg-cathedral-evening.jpg" ondrag="">
+        <img src="https://besthqwallpapers.com/Uploads/3-5-2020/131339/thumb-saint-isaacs-cathedral-isaakievskiy-sobor-saint-petersburg-cathedral-evening.jpg" draggable="true" ondrag="changeSlide()">
     </div>
 
     <!-- Третий слайд -->
     <div class="item">
-        <img src="https://avatars.mds.yandex.net/i?id=4f7dabe589b1d3a082afe518d92742ab-4079503-images-thumbs&n=13&exp=1">
+        <img src="https://avatars.mds.yandex.net/i?id=4f7dabe589b1d3a082afe518d92742ab-4079503-images-thumbs&n=13&exp=1" draggable="true" ondrag="changeSlide()">
     </div>
 
+    <div class="slider-dots"></div>
+
     <!-- Кнопки-стрелочки -->
-    <a class="previous" onclick="previousSlide()">&#10094;</a>
-    <a class="next" onclick="nextSlide()">&#10095;</a>
+    <a href="#" class="previous" onclick="previousSlide()" data-slide="prev">&#10094;</a>
+    <a href="#" class="next" onclick="nextSlide()" data-slide="next">&#10095;</a>
     <script type="text/javascript" src="../../Static/JS/slider.js"></script>
 
 </div>

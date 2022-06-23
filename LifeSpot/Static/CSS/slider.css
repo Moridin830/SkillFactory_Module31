@@ -60,3 +60,13 @@
         opacity: 1
     }
 }
+@keyframes slide {
+    /* Устанавливаем и изменяем степень прозрачности: */
+    from {
+        opacity: 0.4
+    }
+
+    to {
+        opacity: 1
+    }
+}
